@@ -9,14 +9,15 @@
     <input type="text" ng-model="searchText">
     <table ng-controller="AvngersCtrl">
         <tr ng-repeat="actor in avengers.cast | filter:searchText">
-            <td>{{actor.name}}</td>
-            <td>{{actor.character}}</td>
+            <td>{{actor.name | capitalise}}</td>
+            <td>{{actor.character | capitalise}}</td>
         </tr>
     </table>
     <script src="js/angular.js"></script>
     <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="controllers/avengers-ctrl.js"></script>
     <script type="text/javascript" src="factories/avengers-factory.js"></script>
+    <script type="text/javascript" src="filters/filter.js"></script>
 </body>
 
 </html>

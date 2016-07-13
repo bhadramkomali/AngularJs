@@ -5,27 +5,27 @@ app.factory('Avengers', function () {
 
     Avengers.cast = [
         {
-            "name": "rajasekhar",
+            "name": "Rajasekhar",
             "character": "Captain America"
         },
         {
-            "name": "manoj",
+            "name": "Manoj",
             "character": "Iron Man"
         },
         {
-            "name": "mahesh",
+            "name": "Mahesh",
             "character": "Thor"
         },
         {
-            "name": "bhadram",
+            "name": "Bhadram",
             "character": "Hulk"
         },
         {
-            "name": "ramesh",
+            "name": "Ramesh",
             "character": "Falcon"
         },
         {
-            "name": "balu",
+            "name": "Balu",
             "character": "Hawk-Eye"
         }
     ];
