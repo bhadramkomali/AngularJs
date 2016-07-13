@@ -1,0 +1,22 @@
+<html ng-app="firstapp">
+
+<head>
+    <title>First angular app</title>
+</head>
+
+<body>
+    <h3>Welcome to avengers cast info</h3>
+    <input type="text" ng-model="searchText">
+    <table ng-controller="AvngersCtrl">
+        <tr ng-repeat="actor in avengers.cast | filter:searchText">
+            <td>{{actor.name}}</td>
+            <td>{{actor.character}}</td>
+        </tr>
+    </table>
+    <script src="js/angular.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="controllers/avengers-ctrl.js"></script>
+    <script type="text/javascript" src="factories/avengers-factory.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+[ERR!] cwd  : C:\bhadram\Softwares\jetty\webapps\avengers
+[ERR!] os   : Windows_NT 10.0.10586
+[ERR!] argv : "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\bhadram komali\\AppData\\Roaming\\npm\\node_modules\\tsd\\build\\cli.js" "query" "jasmine" "angular-protractor" "-action" "install" "-save"
+[ERR!] node : v4.4.7
+[ERR!] tsd  : 0.6.5
+[ERR!] Error: Cannot read property 'block' of null
+[ERR!] CODE : undefined
+[ERR!] Cannot read property 'block' of null
+[ERR!] If you need help, you may report this error at:
+    https://github.com/DefinitelyTyped/tsd/issues
+
+[ERR!] 
+TypeError: Cannot read property 'block' of null
+    at C:\Users\bhadram komali\AppData\Roaming\npm\node_modules\tsd\build\tsd\cli\TablePrinter.js:117:42
+    at Array.forEach (native)
+    at TablePrinter.fileTable (C:\Users\bhadram komali\AppData\Roaming\npm\node_modules\tsd\build\tsd\cli\TablePrinter.js:49:41)
+    at C:\Users\bhadram komali\AppData\Roaming\npm\node_modules\tsd\build\tsd\CLI.js:382:27
+    at tryCatch1 (C:\Users\bhadram komali\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\util.js:63:19)
+    at Promise$_callHandler [as _callHandler] (C:\Users\bhadram komali\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:695:13)
+    at Promise$_settlePromiseFromHandler [as _settlePromiseFromHandler] (C:\Users\bhadram komali\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:711:18)
+    at Promise$_settlePromiseAt [as _settlePromiseAt] (C:\Users\bhadram komali\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:868:14)
+    at Promise$_settlePromises [as _settlePromises] (C:\Users\bhadram komali\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:1006:14)
+    at Async$_consumeFunctionBuffer [as _consumeFunctionBuffer] (C:\Users\bhadram komali\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\async.js:74:12)
+
+[ERR!] tsd.json: {"version":"v4","repo":"borisyankov/DefinitelyTyped","ref":"master","path":"typings","bundle":"typings/tsd.d.ts","installed":{}}
+
+[ERR!] .tsdrc could not be retrieved
+
+[ERR!] Please include the following file with any support request:
+    C:\bhadram\Softwares\jetty\webapps\avengers\tsd-debug.log
+
